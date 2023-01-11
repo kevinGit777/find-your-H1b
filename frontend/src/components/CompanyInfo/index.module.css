@@ -1,0 +1,134 @@
+/* #root,body,html {
+    height: 100%;
+  }
+  
+  .ant-layout {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+  }
+  */
+
+  
+  
+  .layout {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+  }
+
+ .header{
+    /* align-items: flex-start;*/
+    display: flex;
+    flex-direction: row;
+    flex:0.1;
+    justify-content: space-between;
+    align-items: baseline   ;
+    background-color: grey;
+     
+    /* padding: 10px; */
+    /* flex: 1; */
+    /* flex-wrap: wrap; */
+ }
+ 
+ .search{
+    margin: 10px;
+    flex:1;
+ }
+
+ .title{
+    /* background-color: green; */
+    flex:1;
+    color: azure;
+    font-size: x-large;
+}
+
+ .personal{
+    /* background-color: aqua; */
+    flex:1;
+    text-align: right;
+    color: aliceblue;
+font-size: x-large;    /* margin-left: 500px; */
+}
+
+
+.content {
+    padding: 24px;
+    /* background: red; */
+    flex:2;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items:stretch ;
+    margin-top: 50px;
+
+  }
+
+
+ .searchbutton{
+    /* background-color: aqua; */
+    flex:auto;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+  .footer{
+    text-align: center;
+    /* align-items:flex-end ; */
+    /* padding-top: 100px; */
+    height: 100px;
+    flex:0.2;
+    
+  }
+
+  .form{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .formitem{
+    margin-top:auto;
+    margin-bottom: 10px;
+  }
+  .formbutton{
+    margin-top: 40px;
+    margin-left:10px;
+    /* margin-right:50px;
+    text-align: right; */
+  }
+  .inputstyle{
+    margin: 5px 5px;
+  }
+
+  .tabpag{
+    display: flex;
+    flex-direction:column;
+
+    /* background-color: blueviolet; */
+    /* flex:0.5 1; */
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+  .table{
+    /* background-color: green; */
+    flex: auto ;
+    text-align: left;
+    margin-right: 50px;
+}
+
+  .pagstyle{
+    flex: auto;
+    /* text-align: right;   */
+    background-color: beige;
+    justify-items: center;
+
+  }
+
+

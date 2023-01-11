@@ -1,0 +1,39 @@
+body {
+  background: url("81913.jpeg") center center fixed;;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+ }
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  }
+.loginForm {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: lightblue;
+}
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.submitbutton {
+  background: #B9DFFF;
+}
+
+.signup {
+  background: #B9DFFF;
+  font-size: 20px;
+}
